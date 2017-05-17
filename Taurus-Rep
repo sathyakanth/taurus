@@ -1,0 +1,10 @@
+execution:
+- scenario: simple
+
+scenarios:
+  simple:
+    script: CSV.jmx
+
+reporting:
+  - module: blazemeter
+    test: TestSathya
