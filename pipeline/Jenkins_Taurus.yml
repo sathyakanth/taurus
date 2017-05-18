@@ -1,0 +1,12 @@
+---
+execution: 
+- concurrency: 50
+  ramp-up: 15s
+  hold-for: 2m
+  iterations: 1
+  throughput: 20
+  scenario: KPItest.jmx
+
+reporting:
+  - module: blazemeter
+    test: TaurusTest
